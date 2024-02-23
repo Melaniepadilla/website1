@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: purple;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+search {
+    height: 200px;
+    width: 300px;
+    background-color: blue;
+    position: relative;
+}
+
+
+.search .btn {
+    position: absolute;
+    top: 0;
+    left: 198px;
+    font-size: 24px;
+    background-color: white;
+    border: 0;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    transition: transform 3s ease;
+}
+
+.search .imput {
+    background-color: white;
+    border: 0;
+    font-size: 18px;
+    height: 50px;
+    width: 50px;
+    padding: 15px;
+    transition: width 3s ease;
+}
+
+.search imput:focus {
+    outline: none;
+}
+
+.search.active .imput {
+    width: 200px;
+}
+
+.search.active .btn {
+    transport: translateX(198px);
+}
