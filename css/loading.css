@@ -19,6 +19,11 @@ body {
 .bg {
     height: 100vh;
     width: 100vw;
-    background-color: magenta;
     position: absolute;
+    z-index: -1;
+    background-image: url("images/flamingo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
