@@ -28,7 +28,7 @@ search {
     height: 50px;
     width: 50px;
     cursor: pointer;
-    transition: transform 3s ease;
+    transition: transform .3s ease;
 }
 
 .search .imput {
@@ -38,7 +38,7 @@ search {
     height: 50px;
     width: 50px;
     padding: 15px;
-    transition: width 3s ease;
+    transition: width .3s ease;
 }
 
 .search imput:focus {
