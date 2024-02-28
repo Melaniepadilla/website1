@@ -10,15 +10,15 @@ body {
     justify-content: center;
 }
 
-search {
+.search {
     height: 200px;
     width: 300px;
-    background-color: blue;
+    background-color: white;
     position: relative;
 }
 
 
-.search .btn {
+.search.btn {
     position: absolute;
     top: 0;
     left: 198px;
@@ -31,7 +31,7 @@ search {
     transition: transform .3s ease;
 }
 
-.search .imput {
+.search.imput {
     background-color: white;
     border: 0;
     font-size: 18px;
@@ -41,14 +41,14 @@ search {
     transition: width .3s ease;
 }
 
-.search imput:focus {
+.search.imput:focus {
     outline: none;
 }
 
-.search.active .imput {
+.search.active.imput {
     width: 200px;
 }
 
-.search.active .btn {
+.search.active.btn {
     transport: translateX(198px);
 }
