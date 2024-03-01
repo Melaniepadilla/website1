@@ -12,7 +12,7 @@ sounds.forEach(sound => {
 })
 
 
-Function stopSongs() {
+function stopSongs() {
     sounds.forEach(sound => {
         song = document.getElementById(sound)
         song.pause()
