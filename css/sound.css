@@ -1,7 +1,7 @@
 
 
 body {
-    background-color: lavender;
+    background-color: rgb(157,134,186);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -10,12 +10,20 @@ body {
 }
 
 .btn {
-    background-color: lavenderblush;
+    background-color: rgb(49,50,84);
     font-size: 1.2rem;
     padding: 1.5rem 3rem;
-    margin: 1rem
+    margin: 1rem;
     border-radius: 5px;
     border: none;
-    color: rgb(157,134,186);
+    color: white;
     cursor: pointer;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.btn:hover {
+    background-color: black;
+    opacity: 0.5;
 }
