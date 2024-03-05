@@ -13,11 +13,13 @@ body {
 
 .search {
     height: 50px;
+    width: 300px;
+    background-color: purple;
     position: relative;
 }
 
 
-.search .btn {
+.search .btn{
     position: absolute;
     top: 0;
     left: 180px;
