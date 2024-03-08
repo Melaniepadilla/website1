@@ -93,4 +93,15 @@ button {
 .toggle {
     background-color: rgba(0,0,0,0.3);
     position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.cta-btn {
+    padding: 12px 30px;
+    font-size: 20px;
+}
+
+.container {
+    padding: 15px;
 }
