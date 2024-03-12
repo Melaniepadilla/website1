@@ -2,8 +2,8 @@
 
 :root {
     /* color changes theme */
-    --primary-color: rgb(48,51,107);
-    --secondary-color: #be2edd;
+    --primary-color: rgb(88,51,107);
+    --secondary-color: red;
     --modal-duration: 1s;
 }
 * {
