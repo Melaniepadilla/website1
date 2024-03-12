@@ -12,9 +12,7 @@ body {
 }
 
 .search {
-    height: 50px;
-    width: 300px;
-    background-color: purple;
+    height: 200px;
     position: relative;
 }
 
@@ -22,7 +20,8 @@ body {
 .search .btn{
     position: absolute;
     top: 0;
-    left: 180px;
+    right: 0;
+    left: 0px;
     font-size: 24px;
     background-color: white;
     border: 0;
@@ -32,17 +31,18 @@ body {
     transition: transform .3s ease;
 }
 
-.search.input {
+.search .input {
     background-color: white;
     border: 0;
     font-size: 18px;
     height: 50px;
     width: 50px;
     padding: 15px;
+    box-sizing: border-box;
     transition: width .3s ease;
 }
 
-.search.input:focus {
+.search .input:focus {
     outline: none;
 }
 
@@ -50,6 +50,6 @@ body {
     width: 200px;
 }
 
-.search.activen.btn {
+.search.activen .btn {
     transform: translateX(198px);
 }
