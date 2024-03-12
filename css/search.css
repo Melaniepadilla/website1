@@ -51,5 +51,5 @@ body {
 }
 
 .search.active.btn {
-    transport: translateX(198px);
+    transform: translateX(198px);
 }
