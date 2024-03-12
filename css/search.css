@@ -42,7 +42,7 @@ body {
     transition: width .3s ease;
 }
 
-.search.input.focus {
+.search.input:focus {
     outline: none;
 }
 
