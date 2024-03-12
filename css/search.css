@@ -50,6 +50,6 @@ body {
     width: 200px;
 }
 
-.search.activen .btn {
+.search.active .btn {
     transform: translateX(198px);
 }
