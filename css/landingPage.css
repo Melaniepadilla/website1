@@ -2,8 +2,8 @@
 
 :root {
     /* color changes theme */
-    --primary-color: rgb(191,85,73);
-    --secondary-color: red;
+    --primary-color: rgb(89,40,48);
+    --secondary-color: rgb(145,67,80);
     --modal-duration: 1s;
 }
 * {
@@ -70,7 +70,7 @@ nav ul li:nth-of-type(1) {
 
 header {
     background-color: var(--primary-color);
-    color: white;
+    color: rgb(235, 127, 144);
     font-size: 130%;
     position: relative;
     padding: 40px 15px;
