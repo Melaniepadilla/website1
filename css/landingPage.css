@@ -85,7 +85,8 @@ header p {
     margin: 30px 0;
 }
 
-button  {
+button,
+input[type='submit'] {
     /* fix this part */
     background-color: var(--secondary-color);
     border: 0;
