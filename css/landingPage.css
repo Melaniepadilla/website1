@@ -189,3 +189,22 @@ input[type='submit'] {
     background: transparent;
     font-size: 25px;
 }
+
+/* Back Button */
+.btn {
+    text-decoration: none;
+    z-index: 1;
+    margin: 0;
+    padding: 0.2rem;
+    border: 3px solid black;
+    color: black;
+    font-family: "Ariel", cursive;
+    font-weight: 400;
+    font-style: normal;
+    top:85%;
+    left:0%;
+    height:40px;
+    position: absolute;
+    background: rgb(255,255,255);
+  }
+
